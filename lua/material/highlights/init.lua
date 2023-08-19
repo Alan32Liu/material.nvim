@@ -311,18 +311,18 @@ M.async_highlights.load_lsp = function()
         LspReferenceWrite          = { link = "LspReferenceText" }, -- used for highlighting "write" references
         LspCodeLens                = { link = "DiagnosticHint" },
 
-        ["@lsp.type.enum"]       = { link = "@type" },
-        ['@lsp.type.class']      = { link = "@type" },
-        ["@lsp.type.keyword"]    = { link = "@keyword" },
-        ["@lsp.type.interface"]  = { link = "Identifier" },
-        ["@lsp.type.namespace"]  = { link = "@namespace" },
-        ["@lsp.type.parameter"]  = { link = "@parameter" },
-        ["@lsp.type.property"]   = { link = "@property" },
-
-        ["@lsp.typemod.function.defaultLibrary"] = { link = "@function.builtin" },
-        ["@lsp.typemod.variable.defaultLibrary"] = { link = "@variable.builtin" },
-
         --[[
+          ["@lsp.type.enum"]       = { link = "@type" },
+          ['@lsp.type.class']      = { link = "@type" },
+          ["@lsp.type.keyword"]    = { link = "@keyword" },
+          ["@lsp.type.interface"]  = { link = "Identifier" },
+          ["@lsp.type.namespace"]  = { link = "@namespace" },
+          ["@lsp.type.parameter"]  = { link = "@parameter" },
+          ["@lsp.type.property"]   = { link = "@property" },
+
+          ["@lsp.typemod.function.defaultLibrary"] = { link = "@function.builtin" },
+          ["@lsp.typemod.variable.defaultLibrary"] = { link = "@variable.builtin" },
+
           ['@lsp.type.namespace'] = '@namespace',
           ['@lsp.type.type'] = '@type',
           ['@lsp.type.class'] = '@type',
